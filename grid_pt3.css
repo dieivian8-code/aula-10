@@ -1,0 +1,37 @@
+.container{
+
+
+    height: 70vh;
+    background-color: lightgray;
+     padding: 10px;
+     display: grid;
+ grid-template-columns: repeat(2,1fr);
+ grid-template-rows: repeat(2,1fr);
+  gap: 10px;
+  /* row-gap: 20px;
+  column-gap: 20px; */
+  justify-items: stretch;
+  align-items: start;
+
+}
+.container div{
+border: 1px double crimson;
+
+}
+
+
+
+
+.cx1{background-color: blueviolet;
+
+}
+.cx2{background-color: darkmagenta;
+
+}
+.cx3{background-color: darkviolet;
+
+}
+.cx4{background-color: darkorchid;
+
+
+}
